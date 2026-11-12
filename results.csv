@@ -1,0 +1,113 @@
+model,prompt,response,seconds
+qwen2.5:0.5b,A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost? Answer briefly and explain your reasoning.,"Let's define:
+- \( B \) as the cost of the ball.
+- \( T \) as the cost of the bat.
+
+Given that the total cost of the bat and the ball is $1.10, and the bat costs $1.00 more than the ball, we can write the following equations:
+
+1. \( T = B + 1.10 \) (total cost)
+2. \( T = B + 1 \) (total cost)
+
+We can use these two equations to solve for \( B \) and \( T \).
+
+First, subtract the second equation from the first to eliminate \( T \):
+
+\[
+B + 1.10 - (B + 1) = 1.10 - 1
+\]
+
+Simplifying:
+
+\[
+B + 1.10 - B - 1 = 0.10
+\]
+
+\[
+0.10 = 0.10
+\]
+
+This equation is consistent and does not provide new information. We need to find the individual costs of the ball and the bat.
+
+From the second equation, we can express \( B \) in terms of \( T \):
+
+\[
+B = T - 1
+\]
+
+Substitute \( B = T - 1 \) into the first equation:
+
+\[
+T = (T - 1) + 1.10
+\]
+
+Simplify and solve for \( T \):
+
+\[
+T = T - 1 + 1.10
+\]
+
+\[
+T = T + 0.10
+\]
+
+\[
+0.10 = 0.10
+\]
+
+This confirms that our values for \( B \) and \( T \) are consistent. Now, to find the specific cost of the ball (\( B \)):
+
+Substitute \( T = B + 1.10 \) back into the second equation:
+
+\[
+B = T - 1
+\]
+
+\[
+B = (B + 1.10) - 1
+\]
+
+Simplify:
+
+\[
+B = B + 0.10 - 1
+\]
+
+\[
+B = B - 0.90
+\]
+
+\[
+0.90 = 0.90
+\]
+
+This equation is still true. Let's solve for \( B \) by isolating \( B \) on one side:
+
+\[
+B - 0.90 = 0
+\]
+
+\[
+B = 0.90
+\]
+
+Thus, the ball costs $0.90.",3.68
+gemma3:1b,A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost? Answer briefly and explain your reasoning.,"Here's the solution:
+
+* **Let 'x' be the cost of the ball.**
+* **The bat costs 'x + $1.00'.**
+* **Together, they cost $1.10:** x + (x + $1.00) = $1.10
+* **Simplify: 2x + $1.00 = $1.10**
+* **Subtract $1.00 from both sides: 2x = $0.10**
+* **Divide both sides by 2: x = $0.05**
+
+**Therefore, the ball costs $0.05 (5 cents).**
+",2.29
+llama3.2:1b,A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost? Answer briefly and explain your reasoning.,"Let's say the ball costs x. Since the bat costs $1.00 more than the ball, the bat costs x + $1. Therefore, the total cost is x + (x + $1) = $1.10.
+
+Combine like terms: 2x + $1 = $1.10
+
+Subtract $1 from both sides: 2x = $0.10
+
+Divide both sides by 2: x = $0.05
+
+So, the ball costs $0.05 or 5 cents.",2.21
